@@ -34,23 +34,23 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		A5B7C2411806A3A5002DA99D /* DeviceMotionAtitudeDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DeviceMotionAtitudeDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A5B7C2411806A3A5002DA99D /* DeviceMotionAttitudeDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DeviceMotionAttitudeDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A5B7C2441806A3A5002DA99D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		A5B7C2461806A3A5002DA99D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		A5B7C2481806A3A5002DA99D /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
-		A5B7C24C1806A3A5002DA99D /* DeviceMotionAtitudeDemo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DeviceMotionAtitudeDemo-Info.plist"; sourceTree = "<group>"; };
+		A5B7C24C1806A3A5002DA99D /* DeviceMotionAttitudeDemo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DeviceMotionAttitudeDemo-Info.plist"; sourceTree = "<group>"; };
 		A5B7C24E1806A3A5002DA99D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		A5B7C2501806A3A5002DA99D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		A5B7C2521806A3A5002DA99D /* DeviceMotionAtitudeDemo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DeviceMotionAtitudeDemo-Prefix.pch"; sourceTree = "<group>"; };
+		A5B7C2521806A3A5002DA99D /* DeviceMotionAttitudeDemo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DeviceMotionAttitudeDemo-Prefix.pch"; sourceTree = "<group>"; };
 		A5B7C2531806A3A5002DA99D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		A5B7C2541806A3A5002DA99D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		A5B7C2571806A3A5002DA99D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A5B7C2591806A3A5002DA99D /* MasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MasterViewController.h; sourceTree = "<group>"; };
 		A5B7C25A1806A3A5002DA99D /* MasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MasterViewController.m; sourceTree = "<group>"; };
 		A5B7C25F1806A3A5002DA99D /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		A5B7C2651806A3A5002DA99D /* DeviceMotionAtitudeDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DeviceMotionAtitudeDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A5B7C2651806A3A5002DA99D /* DeviceMotionAttitudeDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DeviceMotionAttitudeDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A5B7C2661806A3A5002DA99D /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
-		A5B7C26E1806A3A5002DA99D /* DeviceMotionAtitudeDemoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DeviceMotionAtitudeDemoTests-Info.plist"; sourceTree = "<group>"; };
+		A5B7C26E1806A3A5002DA99D /* DeviceMotionAttitudeDemoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DeviceMotionAttitudeDemoTests-Info.plist"; sourceTree = "<group>"; };
 		A5B7C2701806A3A5002DA99D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		A5B7C2721806A3A5002DA99D /* DeviceMotionAtitudeDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DeviceMotionAtitudeDemoTests.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -82,7 +82,7 @@
 		A5B7C2381806A3A5002DA99D = {
 			isa = PBXGroup;
 			children = (
-				A5B7C24A1806A3A5002DA99D /* DeviceMotionAtitudeDemo */,
+				A5B7C24A1806A3A5002DA99D /* DeviceMotionAttitudeDemo */,
 				A5B7C26C1806A3A5002DA99D /* DeviceMotionAtitudeDemoTests */,
 				A5B7C2431806A3A5002DA99D /* Frameworks */,
 				A5B7C2421806A3A5002DA99D /* Products */,
@@ -92,8 +92,8 @@
 		A5B7C2421806A3A5002DA99D /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				A5B7C2411806A3A5002DA99D /* DeviceMotionAtitudeDemo.app */,
-				A5B7C2651806A3A5002DA99D /* DeviceMotionAtitudeDemoTests.xctest */,
+				A5B7C2411806A3A5002DA99D /* DeviceMotionAttitudeDemo.app */,
+				A5B7C2651806A3A5002DA99D /* DeviceMotionAttitudeDemoTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -109,7 +109,7 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		A5B7C24A1806A3A5002DA99D /* DeviceMotionAtitudeDemo */ = {
+		A5B7C24A1806A3A5002DA99D /* DeviceMotionAttitudeDemo */ = {
 			isa = PBXGroup;
 			children = (
 				A5B7C2531806A3A5002DA99D /* AppDelegate.h */,
@@ -120,16 +120,17 @@
 				A5B7C25F1806A3A5002DA99D /* Images.xcassets */,
 				A5B7C24B1806A3A5002DA99D /* Supporting Files */,
 			);
+			name = DeviceMotionAttitudeDemo;
 			path = DeviceMotionAtitudeDemo;
 			sourceTree = "<group>";
 		};
 		A5B7C24B1806A3A5002DA99D /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				A5B7C24C1806A3A5002DA99D /* DeviceMotionAtitudeDemo-Info.plist */,
+				A5B7C24C1806A3A5002DA99D /* DeviceMotionAttitudeDemo-Info.plist */,
 				A5B7C24D1806A3A5002DA99D /* InfoPlist.strings */,
 				A5B7C2501806A3A5002DA99D /* main.m */,
-				A5B7C2521806A3A5002DA99D /* DeviceMotionAtitudeDemo-Prefix.pch */,
+				A5B7C2521806A3A5002DA99D /* DeviceMotionAttitudeDemo-Prefix.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -146,7 +147,7 @@
 		A5B7C26D1806A3A5002DA99D /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				A5B7C26E1806A3A5002DA99D /* DeviceMotionAtitudeDemoTests-Info.plist */,
+				A5B7C26E1806A3A5002DA99D /* DeviceMotionAttitudeDemoTests-Info.plist */,
 				A5B7C26F1806A3A5002DA99D /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
@@ -155,9 +156,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		A5B7C2401806A3A5002DA99D /* DeviceMotionAtitudeDemo */ = {
+		A5B7C2401806A3A5002DA99D /* DeviceMotionAttitudeDemo */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A5B7C2761806A3A5002DA99D /* Build configuration list for PBXNativeTarget "DeviceMotionAtitudeDemo" */;
+			buildConfigurationList = A5B7C2761806A3A5002DA99D /* Build configuration list for PBXNativeTarget "DeviceMotionAttitudeDemo" */;
 			buildPhases = (
 				A5B7C23D1806A3A5002DA99D /* Sources */,
 				A5B7C23E1806A3A5002DA99D /* Frameworks */,
@@ -167,14 +168,14 @@
 			);
 			dependencies = (
 			);
-			name = DeviceMotionAtitudeDemo;
+			name = DeviceMotionAttitudeDemo;
 			productName = DeviceMotionAtitudeDemo;
-			productReference = A5B7C2411806A3A5002DA99D /* DeviceMotionAtitudeDemo.app */;
+			productReference = A5B7C2411806A3A5002DA99D /* DeviceMotionAttitudeDemo.app */;
 			productType = "com.apple.product-type.application";
 		};
-		A5B7C2641806A3A5002DA99D /* DeviceMotionAtitudeDemoTests */ = {
+		A5B7C2641806A3A5002DA99D /* DeviceMotionAttitudeDemoTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A5B7C2791806A3A5002DA99D /* Build configuration list for PBXNativeTarget "DeviceMotionAtitudeDemoTests" */;
+			buildConfigurationList = A5B7C2791806A3A5002DA99D /* Build configuration list for PBXNativeTarget "DeviceMotionAttitudeDemoTests" */;
 			buildPhases = (
 				A5B7C2611806A3A5002DA99D /* Sources */,
 				A5B7C2621806A3A5002DA99D /* Frameworks */,
@@ -185,9 +186,9 @@
 			dependencies = (
 				A5B7C26B1806A3A5002DA99D /* PBXTargetDependency */,
 			);
-			name = DeviceMotionAtitudeDemoTests;
+			name = DeviceMotionAttitudeDemoTests;
 			productName = DeviceMotionAtitudeDemoTests;
-			productReference = A5B7C2651806A3A5002DA99D /* DeviceMotionAtitudeDemoTests.xctest */;
+			productReference = A5B7C2651806A3A5002DA99D /* DeviceMotionAttitudeDemoTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -204,7 +205,7 @@
 					};
 				};
 			};
-			buildConfigurationList = A5B7C23C1806A3A5002DA99D /* Build configuration list for PBXProject "DeviceMotionAtitudeDemo" */;
+			buildConfigurationList = A5B7C23C1806A3A5002DA99D /* Build configuration list for PBXProject "DeviceMotionAttitudeDemo" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -217,8 +218,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				A5B7C2401806A3A5002DA99D /* DeviceMotionAtitudeDemo */,
-				A5B7C2641806A3A5002DA99D /* DeviceMotionAtitudeDemoTests */,
+				A5B7C2401806A3A5002DA99D /* DeviceMotionAttitudeDemo */,
+				A5B7C2641806A3A5002DA99D /* DeviceMotionAttitudeDemoTests */,
 			);
 		};
 /* End PBXProject section */
@@ -268,7 +269,7 @@
 /* Begin PBXTargetDependency section */
 		A5B7C26B1806A3A5002DA99D /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = A5B7C2401806A3A5002DA99D /* DeviceMotionAtitudeDemo */;
+			target = A5B7C2401806A3A5002DA99D /* DeviceMotionAttitudeDemo */;
 			targetProxy = A5B7C26A1806A3A5002DA99D /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -379,9 +380,9 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "DeviceMotionAtitudeDemo/DeviceMotionAtitudeDemo-Prefix.pch";
-				INFOPLIST_FILE = "DeviceMotionAtitudeDemo/DeviceMotionAtitudeDemo-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				GCC_PREFIX_HEADER = "DeviceMotionAtitudeDemo/DeviceMotionAttitudeDemo-Prefix.pch";
+				INFOPLIST_FILE = "DeviceMotionAtitudeDemo/DeviceMotionAttitudeDemo-Info.plist";
+				PRODUCT_NAME = DeviceMotionAttitudeDemo;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -392,9 +393,9 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "DeviceMotionAtitudeDemo/DeviceMotionAtitudeDemo-Prefix.pch";
-				INFOPLIST_FILE = "DeviceMotionAtitudeDemo/DeviceMotionAtitudeDemo-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				GCC_PREFIX_HEADER = "DeviceMotionAtitudeDemo/DeviceMotionAttitudeDemo-Prefix.pch";
+				INFOPLIST_FILE = "DeviceMotionAtitudeDemo/DeviceMotionAttitudeDemo-Info.plist";
+				PRODUCT_NAME = DeviceMotionAttitudeDemo;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -415,8 +416,8 @@
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = "DeviceMotionAtitudeDemoTests/DeviceMotionAtitudeDemoTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				INFOPLIST_FILE = "DeviceMotionAtitudeDemoTests/DeviceMotionAttitudeDemoTests-Info.plist";
+				PRODUCT_NAME = DeviceMotionAttitudeDemoTests;
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
 			};
@@ -434,8 +435,8 @@
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "DeviceMotionAtitudeDemo/DeviceMotionAtitudeDemo-Prefix.pch";
-				INFOPLIST_FILE = "DeviceMotionAtitudeDemoTests/DeviceMotionAtitudeDemoTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				INFOPLIST_FILE = "DeviceMotionAtitudeDemoTests/DeviceMotionAttitudeDemoTests-Info.plist";
+				PRODUCT_NAME = DeviceMotionAttitudeDemoTests;
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
 			};
@@ -444,7 +445,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		A5B7C23C1806A3A5002DA99D /* Build configuration list for PBXProject "DeviceMotionAtitudeDemo" */ = {
+		A5B7C23C1806A3A5002DA99D /* Build configuration list for PBXProject "DeviceMotionAttitudeDemo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A5B7C2741806A3A5002DA99D /* Debug */,
@@ -453,7 +454,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A5B7C2761806A3A5002DA99D /* Build configuration list for PBXNativeTarget "DeviceMotionAtitudeDemo" */ = {
+		A5B7C2761806A3A5002DA99D /* Build configuration list for PBXNativeTarget "DeviceMotionAttitudeDemo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A5B7C2771806A3A5002DA99D /* Debug */,
@@ -461,7 +462,7 @@
 			);
 			defaultConfigurationIsVisible = 0;
 		};
-		A5B7C2791806A3A5002DA99D /* Build configuration list for PBXNativeTarget "DeviceMotionAtitudeDemoTests" */ = {
+		A5B7C2791806A3A5002DA99D /* Build configuration list for PBXNativeTarget "DeviceMotionAttitudeDemoTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A5B7C27A1806A3A5002DA99D /* Debug */,
