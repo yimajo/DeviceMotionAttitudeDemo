@@ -15,7 +15,6 @@
 		A5B7C2551806A3A5002DA99D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A5B7C2541806A3A5002DA99D /* AppDelegate.m */; };
 		A5B7C2581806A3A5002DA99D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A5B7C2561806A3A5002DA99D /* Main.storyboard */; };
 		A5B7C25B1806A3A5002DA99D /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A5B7C25A1806A3A5002DA99D /* MasterViewController.m */; };
-		A5B7C25E1806A3A5002DA99D /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A5B7C25D1806A3A5002DA99D /* DetailViewController.m */; };
 		A5B7C2601806A3A5002DA99D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A5B7C25F1806A3A5002DA99D /* Images.xcassets */; };
 		A5B7C2671806A3A5002DA99D /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A5B7C2661806A3A5002DA99D /* XCTest.framework */; };
 		A5B7C2681806A3A5002DA99D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A5B7C2441806A3A5002DA99D /* Foundation.framework */; };
@@ -48,8 +47,6 @@
 		A5B7C2571806A3A5002DA99D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A5B7C2591806A3A5002DA99D /* MasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MasterViewController.h; sourceTree = "<group>"; };
 		A5B7C25A1806A3A5002DA99D /* MasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MasterViewController.m; sourceTree = "<group>"; };
-		A5B7C25C1806A3A5002DA99D /* DetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
-		A5B7C25D1806A3A5002DA99D /* DetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
 		A5B7C25F1806A3A5002DA99D /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		A5B7C2651806A3A5002DA99D /* DeviceMotionAtitudeDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DeviceMotionAtitudeDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A5B7C2661806A3A5002DA99D /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
@@ -120,8 +117,6 @@
 				A5B7C2561806A3A5002DA99D /* Main.storyboard */,
 				A5B7C2591806A3A5002DA99D /* MasterViewController.h */,
 				A5B7C25A1806A3A5002DA99D /* MasterViewController.m */,
-				A5B7C25C1806A3A5002DA99D /* DetailViewController.h */,
-				A5B7C25D1806A3A5002DA99D /* DetailViewController.m */,
 				A5B7C25F1806A3A5002DA99D /* Images.xcassets */,
 				A5B7C24B1806A3A5002DA99D /* Supporting Files */,
 			);
@@ -257,7 +252,6 @@
 				A5B7C2551806A3A5002DA99D /* AppDelegate.m in Sources */,
 				A5B7C25B1806A3A5002DA99D /* MasterViewController.m in Sources */,
 				A5B7C2511806A3A5002DA99D /* main.m in Sources */,
-				A5B7C25E1806A3A5002DA99D /* DetailViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

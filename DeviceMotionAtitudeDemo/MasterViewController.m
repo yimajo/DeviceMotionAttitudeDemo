@@ -7,12 +7,16 @@
 //
 
 #import "MasterViewController.h"
+#import <CoreMotion/CoreMotion.h>
+#import <math.h>
 
-#import "DetailViewController.h"
+@interface MasterViewController ()
 
-@interface MasterViewController () {
-    NSMutableArray *_objects;
-}
+@property (strong, nonatomic) CMMotionManager *motionManager;
+@property (weak, nonatomic) IBOutlet UILabel *pitchLabel;
+@property (weak, nonatomic) IBOutlet UILabel *rollLabel;
+@property (weak, nonatomic) IBOutlet UILabel *yawLabel;
+
 @end
 
 @implementation MasterViewController
@@ -20,94 +24,54 @@
 - (void)awakeFromNib
 {
     [super awakeFromNib];
+    [self commonInit];
 }
 
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
-    self.navigationItem.leftBarButtonItem = self.editButtonItem;
-
-    UIBarButtonItem *addButton = [[UIBarButtonItem alloc] initWithBarButtonSystemItem:UIBarButtonSystemItemAdd target:self action:@selector(insertNewObject:)];
-    self.navigationItem.rightBarButtonItem = addButton;
+    [self attiude];
 }
 
 - (void)didReceiveMemoryWarning
 {
     [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
 }
 
-- (void)insertNewObject:(id)sender
+#pragma mark -
+
+- (void)commonInit
 {
-    if (!_objects) {
-        _objects = [[NSMutableArray alloc] init];
-    }
-    [_objects insertObject:[NSDate date] atIndex:0];
-    NSIndexPath *indexPath = [NSIndexPath indexPathForRow:0 inSection:0];
-    [self.tableView insertRowsAtIndexPaths:@[indexPath] withRowAnimation:UITableViewRowAnimationAutomatic];
+    // Custom initialization
+    _motionManager = [[CMMotionManager alloc] init];
 }
 
-#pragma mark - Table View
+#pragma mark - 
 
-- (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView
+- (void)attiude
 {
-    return 1;
-}
+    if (self.motionManager.deviceMotionAvailable) {
+        
+        __weak MasterViewController *viewController = self;
+        
+        // 向きの更新通知を開始する
+        [self.motionManager startDeviceMotionUpdatesToQueue:[NSOperationQueue currentQueue]
+                                                withHandler:^(CMDeviceMotion *motion, NSError *error)
+         {
+             NSLog(@"%f ",motion.attitude.pitch * 180 / M_PI);
+             
+             viewController.pitchLabel.text
+                = [NSString stringWithFormat:@"%f", motion.attitude.pitch * 180 / M_PI];
 
-- (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
-{
-    return _objects.count;
-}
+             viewController.rollLabel.text
+                = [NSString stringWithFormat:@"%f", motion.attitude.roll * 180 / M_PI];
 
-- (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
-{
-    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"Cell" forIndexPath:indexPath];
+             viewController.yawLabel.text
+                = [NSString stringWithFormat:@"%f", motion.attitude.yaw * 180 / M_PI];
 
-    NSDate *object = _objects[indexPath.row];
-    cell.textLabel.text = [object description];
-    return cell;
-}
-
-- (BOOL)tableView:(UITableView *)tableView canEditRowAtIndexPath:(NSIndexPath *)indexPath
-{
-    // Return NO if you do not want the specified item to be editable.
-    return YES;
-}
-
-- (void)tableView:(UITableView *)tableView commitEditingStyle:(UITableViewCellEditingStyle)editingStyle forRowAtIndexPath:(NSIndexPath *)indexPath
-{
-    if (editingStyle == UITableViewCellEditingStyleDelete) {
-        [_objects removeObjectAtIndex:indexPath.row];
-        [tableView deleteRowsAtIndexPaths:@[indexPath] withRowAnimation:UITableViewRowAnimationFade];
-    } else if (editingStyle == UITableViewCellEditingStyleInsert) {
-        // Create a new instance of the appropriate class, insert it into the array, and add a new row to the table view.
+         }];
     }
 }
 
-/*
-// Override to support rearranging the table view.
-- (void)tableView:(UITableView *)tableView moveRowAtIndexPath:(NSIndexPath *)fromIndexPath toIndexPath:(NSIndexPath *)toIndexPath
-{
-}
-*/
-
-/*
-// Override to support conditional rearranging of the table view.
-- (BOOL)tableView:(UITableView *)tableView canMoveRowAtIndexPath:(NSIndexPath *)indexPath
-{
-    // Return NO if you do not want the item to be re-orderable.
-    return YES;
-}
-*/
-
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
-{
-    if ([[segue identifier] isEqualToString:@"showDetail"]) {
-        NSIndexPath *indexPath = [self.tableView indexPathForSelectedRow];
-        NSDate *object = _objects[indexPath.row];
-        [[segue destinationViewController] setDetailItem:object];
-    }
-}
 
 @end
